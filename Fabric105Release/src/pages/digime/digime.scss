@@ -1,0 +1,34 @@
+page-digime {
+	.expand-link {
+		color:									color($colors, primary);
+	}
+
+	.datalist-icon-color {
+		color:									color($colors, dark);
+	}
+
+	.datalist-date {
+		font-size:							1.5rem;
+	}
+
+	.chat-message-textarea {
+		background-color:					white;
+		border:										1px solid color($colors, medium);
+
+		font-size:								14px;
+		resize:										both !important;
+
+		-webkit-user-select:			auto !important;
+		-khtml-user-select:				auto !important;
+		-moz-user-select:					auto !important;
+		-ms-user-select:					auto !important;
+		-o-user-select:						auto !important;
+		user-select:							auto !important;
+
+	} /* end chat-message-textarea */
+
+	.textarea {
+		resize:										both;
+
+	} /* end textarea */
+}
